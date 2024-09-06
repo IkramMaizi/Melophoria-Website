@@ -14,11 +14,11 @@ Note: This is a fictional project and is not connected to any backend or real-wo
 * Clean and modern UI built for a smooth user experience
 
 ## Technologies Used
-Frontend: React, HTML5, CSS3, JavaScript
-State Management: React Hooks
-Styling: CSS3
-Version Control: Git and GitHub
-Responsive Design: Flexbox, CSS Grid
+* Frontend: React, HTML5, CSS3, JavaScript
+* State Management: React Hooks
+* Styling: CSS3
+* Version Control: Git and GitHub
+* Responsive Design: Flexbox, CSS Grid
 
 
 
