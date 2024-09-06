@@ -1,0 +1,9 @@
+.callToActionBtn{
+    background-color: #ee7c2b;
+    width: 12rem;
+    border-radius: 3px;
+    padding: .8rem;
+    font-size: .8rem;
+    color: white;
+    margin-top: 1rem;
+}
