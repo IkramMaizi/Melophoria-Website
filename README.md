@@ -8,10 +8,10 @@ The Melophoria website is a platform for connecting individuals who want to rent
 Note: This is a fictional project and is not connected to any backend or real-world services.
 
 ## Features
-Instrument listing pages with detailed descriptions
-adding new instruments
-Responsive design for desktop and mobile
-Clean and modern UI built for a smooth user experience
+* Instrument listing pages with detailed descriptions
+* adding new instruments
+* Responsive design for desktop and mobile
+* Clean and modern UI built for a smooth user experience
 
 ## Technologies Used
 Frontend: React, HTML5, CSS3, JavaScript
