@@ -72,6 +72,8 @@
   display: grid;
   gap: .5rem;
   grid-template-columns: auto auto auto;
+  padding: 3rem;
+  row-gap: 3rem;
 }
 
 

@@ -2,7 +2,13 @@ import React from 'react'
 import logo from "../assets/logo.png"
 import heroImage from "../assets/hero-image.png"
 import Button from ".././components/Button.jsx"
-
+import categoryImage1 from "../assets/hero-image1.png"
+import categoryImage2 from "../assets/hero-image2.png"
+import categoryImage3 from "../assets/hero-image3.png"
+import categoryImage4 from "../assets/hero-image4.png"
+import categoryImage5 from "../assets/hero-image5.png"
+import categoryImage6 from "../assets/hero-image6.png"
+import {Link} from "react-router-dom"
 
 export default function HomePage() {
   return (
@@ -34,8 +40,25 @@ export default function HomePage() {
         <p className="subtitle">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         </p>
-        <div className="grid-contaiber">
-            
+        <div className="grid-container">
+          <Link to="/" className="category--card">
+            <img src={categoryImage1} alt="" className="card--image" />
+            </Link>  
+          <Link to="/" className="category--card">
+            <img src={categoryImage2} alt="" className="card--image" />
+            </Link>  
+          <Link to="/" className="category--card">
+            <img src={categoryImage3} alt="" className="card--image" />
+            </Link>  
+          <Link to="/" className="category--card">
+            <img src={categoryImage4} alt="" className="card--image" />
+            </Link>  
+          <Link to="/" className="category--card">
+            <img src={categoryImage5} alt="" className="card--image" />
+            </Link>  
+          <Link to="/PP" className="category--card">
+            <img src={categoryImage6} alt="" className="card--image" />
+            </Link>  
         </div>
     </section>
     </div>
