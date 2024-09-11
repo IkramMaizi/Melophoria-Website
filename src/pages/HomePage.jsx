@@ -8,7 +8,8 @@ import categoryImage3 from "../assets/hero-image3.png"
 import categoryImage4 from "../assets/hero-image4.png"
 import categoryImage5 from "../assets/hero-image5.png"
 import categoryImage6 from "../assets/hero-image6.png"
-import {Link} from "react-router-dom"
+import {Link, NavLink} from "react-router-dom"
+import './HomePage.css'
 
 export default function HomePage() {
   return (
@@ -17,10 +18,10 @@ export default function HomePage() {
     <nav className="navbar">
         <img src={logo} alt="logo" className="logo" />
         <ul className="menu">
-            <li>Home</li>
-            <li>Rent</li>
-            <li>List</li>
-            <li>About us</li>
+            <NavLink to="/" className="nav--elem">Home</NavLink>
+            <NavLink to="rent" className="nav--elem">Rent</NavLink>
+            <NavLink to="list" className="nav--elem">List</NavLink>
+            <NavLink to="about" className="nav--elem">About us</NavLink>
 
         </ul>
     </nav>
@@ -29,7 +30,7 @@ export default function HomePage() {
     <div className="hero--text">
         <h2 className="title">Rent Your Favorite Musical Instrument with Ease</h2>
         <p className="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-        <Button text="get started"></Button>
+        <Link to="rent"><Button text="get started"></Button></Link>
     </div>
     </div>
     </section>
