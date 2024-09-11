@@ -76,6 +76,16 @@
   row-gap: 3rem;
 }
 
+footer{
+  background-color: grey;
+  text-align: center;
+}
+
+footer p{
+  color: white;
+  margin: .5rem;
+}
+
 
 @keyframes logo-spin {
   from {

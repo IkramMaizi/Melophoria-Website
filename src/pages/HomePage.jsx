@@ -56,11 +56,14 @@ export default function HomePage() {
           <Link to="/" className="category--card">
             <img src={categoryImage5} alt="" className="card--image" />
             </Link>  
-          <Link to="/PP" className="category--card">
+          <Link to="/" className="category--card">
             <img src={categoryImage6} alt="" className="card--image" />
             </Link>  
         </div>
     </section>
+    <footer>
+      <p>All Rights Reserved 2024</p>
+    </footer>
     </div>
   )
 }
