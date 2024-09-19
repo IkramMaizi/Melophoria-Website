@@ -1,0 +1,17 @@
+.navbar{
+    /* background-color: rgb(161, 67, 0); */
+    display: flex;
+    justify-content: space-between;
+    
+  }
+  .menu{
+    width: 40%;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .nav--elem{
+    font-size: .9rem;
+    color: inherit;
+  }

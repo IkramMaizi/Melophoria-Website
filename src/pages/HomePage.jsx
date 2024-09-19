@@ -1,7 +1,7 @@
 import React from 'react'
-import logo from "../assets/logo.png"
 import heroImage from "../assets/hero-image.png"
 import Button from ".././components/Button.jsx"
+import Navigation from ".././components/navigation.jsx"
 import categoryImage1 from "../assets/hero-image1.png"
 import categoryImage2 from "../assets/hero-image2.png"
 import categoryImage3 from "../assets/hero-image3.png"
@@ -15,22 +15,13 @@ export default function HomePage() {
   return (
     <div className="app">
     <section className="section--1">
-    <nav className="navbar">
-        <img src={logo} alt="logo" className="logo" />
-        <ul className="menu">
-            <NavLink to="/" className="nav--elem">Home</NavLink>
-            <NavLink to="rent" className="nav--elem">Rent</NavLink>
-            <NavLink to="list" className="nav--elem">List</NavLink>
-            <NavLink to="about" className="nav--elem">About us</NavLink>
-
-        </ul>
-    </nav>
+    <Navigation />
     <div className="hero">
     <img src={heroImage} alt="logo" className="hero--image" />
     <div className="hero--text">
         <h2 className="title">Rent Your Favorite Musical Instrument with Ease</h2>
         <p className="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-        <Link to="rent"><Button text="get started"></Button></Link>
+        <Button text="get started" linkTo="rent" />
     </div>
     </div>
     </section>
@@ -60,11 +51,13 @@ export default function HomePage() {
           <Link to="/" className="category--card">
             <img src={categoryImage6} alt="" className="card--image" />
             </Link>  
+          
         </div>
     </section>
     <footer>
       <p>All Rights Reserved 2024</p>
     </footer>
+    
     </div>
   )
 }

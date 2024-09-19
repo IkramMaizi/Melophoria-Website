@@ -1,0 +1,73 @@
+h2, h3, h4, p{
+    margin: 0;
+}
+
+.rent-page{
+    display: flex;
+    flex-direction: column;
+    padding-inline: 10rem;
+    padding-top: 2rem;
+    
+}
+
+.rent-list--title{
+padding-top: 2rem;
+font-weight: 500;
+font-size: 2rem;
+margin: 0;
+}
+
+.filters--container{
+    display: flex;
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+    align-items: center;
+}
+
+.filter{
+    margin-right: 1rem;
+    padding-inline: .8rem;
+    padding-block: .3rem;
+    background-color: #FFF1DE;
+    border-radius: .5rem;
+
+}
+
+.filter p, .clear-filters{
+    margin: 0;
+    color: #213547;
+    font-size: .9rem;
+    font-weight: 500;
+
+}
+
+.cards--container{
+    display: flex;
+    column-gap: 20px;
+}
+
+.card--image{
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+}
+.instrument-card{
+    width: 15rem;
+    background-color: #FFF1DE;
+    border-radius: .8rem;
+    overflow: hidden;
+    border: 1px solid gray;
+}
+
+.card-details{
+    padding-inline: 1.2rem;
+}
+
+/* .instrument-card h3, .instrument-card p{
+    position: absolute;
+} */
+
+.instrument-card h3{
+  font-size: 1rem;
+  font-weight: 500;
+}
