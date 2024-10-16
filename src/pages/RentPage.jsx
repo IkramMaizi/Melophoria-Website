@@ -1,27 +1,54 @@
 import React from 'react'
 import './RentPage.css'
 import Navigation from ".././components/navigation.jsx"
+import InstrumentsCard from ".././components/InstrumentsCard.jsx"
 import {Link, NavLink} from "react-router-dom"
 import InstImg from "../assets/inst-img.jpg"
 
 export default function RentPage() {
   const [Instruments, SetInstruments] = React.useState([{
     name: "Piano original P12",
-    price: "22$"
+    price: "22$",
+    image: InstImg
   },
   {
     name: "Guitar GP45",
-    price: "25$"
-  }])
+    price: "25$",
+    image: InstImg
+  },
+{
+  name: "Guitar GP45",
+    price: "25$",
+    image: InstImg
+},
+{
+  name: "Guitar GP45",
+    price: "25$",
+    image: InstImg
+},
+{
+  name: "Guitar GP45",
+    price: "25$",
+    image: InstImg
+},
+{
+  name: "Guitar GP45",
+    price: "25$",
+    image: InstImg
+},
+{
+  name: "Guitar GP45",
+    price: "25$",
+    image: InstImg
+},
+{
+  name: "Guitar GP45",
+    price: "25$",
+    image: InstImg
+}])
 
   const InstrumentsCards= Instruments.map((inst) => (
-      <div className="instrument-card">
-      <img src={InstImg} className="card--image" alt="" />
-      <div className="card-details">
-      <h3>{inst.name}</h3>
-      <p>{inst.price}</p> 
-      </div>
-      </div>
+      <InstrumentsCard inst= {inst}/>
     )
   )
   return (
