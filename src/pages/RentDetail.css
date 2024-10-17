@@ -1,0 +1,45 @@
+.rent-detail--page{
+    display: flex;
+    flex-direction: column;
+    padding-inline: 10rem;
+    padding-top: 2rem;
+    
+}
+
+.detail--section{
+    display: flex;
+    justify-content: space-between;
+    padding-block: 5rem;
+}
+
+.text--section{
+    width: 55%;
+
+}
+.text--section .name{
+    font-size: 2.1rem;
+    font-weight: 500;
+
+}
+.text--section .price{
+    font-size: 1.3rem;
+    font-weight: 800;
+    padding-top: 1.5rem;
+
+}
+.text--section .description{
+    font-size: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+
+}
+
+.image--section{
+    width: 35%;
+    
+
+}
+
+.detail--section Img{
+    width: 100%;
+}

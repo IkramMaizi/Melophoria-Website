@@ -9,42 +9,50 @@ export default function RentPage() {
   const [Instruments, SetInstruments] = React.useState([{
     name: "Piano original P12",
     price: "22$",
-    image: InstImg
+    image: InstImg,
+    description: "Instuments details here bla bla blaaa hdh ghe bc jzjkddnn nc dhh another text bla blaa hfdh "
   },
   {
     name: "Guitar GP45",
     price: "25$",
-    image: InstImg
+    image: InstImg,
+    description: "Instuments details here bla bla blaaa hdh ghe bc jzjkddnn nc dhh another text bla blaa hfdh "
   },
 {
   name: "Guitar GP45",
     price: "25$",
-    image: InstImg
+    image: InstImg,
+    description: "Instuments details here bla bla blaaa hdh ghe bc jzjkddnn nc dhh another text bla blaa hfdh "
 },
 {
   name: "Guitar GP45",
     price: "25$",
-    image: InstImg
+    image: InstImg,
+    description: "Instuments details here bla bla blaaa hdh ghe bc jzjkddnn nc dhh another text bla blaa hfdh "
 },
 {
   name: "Guitar GP45",
     price: "25$",
-    image: InstImg
+    image: InstImg,
+    description: "Instuments details here bla bla blaaa hdh ghe bc jzjkddnn nc dhh another text bla blaa hfdh "
 },
 {
   name: "Guitar GP45",
     price: "25$",
-    image: InstImg
+    image: InstImg,
+    description: "Instuments details here bla bla blaaa hdh ghe bc jzjkddnn nc dhh another text bla blaa hfdh "
 },
 {
   name: "Guitar GP45",
     price: "25$",
-    image: InstImg
+    image: InstImg,
+    description: "Instuments details here bla bla blaaa hdh ghe bc jzjkddnn nc dhh another text bla blaa hfdh "
 },
 {
   name: "Guitar GP45",
     price: "25$",
-    image: InstImg
+    image: InstImg,
+    description: "Instuments details here bla bla blaaa hdh ghe bc jzjkddnn nc dhh another text bla blaa hfdh "
 }])
 
   const InstrumentsCards= Instruments.map((inst) => (
