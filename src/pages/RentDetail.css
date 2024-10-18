@@ -43,3 +43,14 @@
 .detail--section Img{
     width: 100%;
 }
+
+.options--section{
+    padding-top: 4rem;
+}
+.options--section .title{
+    font-size: 2rem;
+}
+
+.options--section .cards--container{
+   padding-top: 3rem;
+}

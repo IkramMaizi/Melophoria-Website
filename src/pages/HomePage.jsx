@@ -1,7 +1,8 @@
 import React from 'react'
 import heroImage from "../assets/hero-image.png"
 import Button from ".././components/Button.jsx"
-import Navigation from ".././components/navigation.jsx"
+import Navigation from "../components/navigation.jsx"
+import Footer from "../components/Footer.jsx"
 import categoryImage1 from "../assets/hero-image1.png"
 import categoryImage2 from "../assets/hero-image2.png"
 import categoryImage3 from "../assets/hero-image3.png"
@@ -33,30 +34,28 @@ export default function HomePage() {
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         </p>
         <div className="grid-container">
-          <Link to="/" className="category--card">
+          <Link to="/rent" className="category--card">
             <img src={categoryImage1} alt="" className="card--image" />
             </Link>  
-          <Link to="/" className="category--card">
+          <Link to="/rent" className="category--card">
             <img src={categoryImage2} alt="" className="card--image" />
             </Link>  
-          <Link to="/" className="category--card">
+          <Link to="/rent" className="category--card">
             <img src={categoryImage3} alt="" className="card--image" />
             </Link>  
-          <Link to="/" className="category--card">
+          <Link to="/rent" className="category--card">
             <img src={categoryImage4} alt="" className="card--image" />
             </Link>  
-          <Link to="/" className="category--card">
+          <Link to="/rent" className="category--card">
             <img src={categoryImage5} alt="" className="card--image" />
             </Link>  
-          <Link to="/" className="category--card">
+          <Link to="/rent" className="category--card">
             <img src={categoryImage6} alt="" className="card--image" />
             </Link>  
           
         </div>
     </section>
-    <footer>
-      <p>All Rights Reserved 2024</p>
-    </footer>
+    <Footer />
     
     </div>
   )

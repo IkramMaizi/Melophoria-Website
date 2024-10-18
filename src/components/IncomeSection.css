@@ -1,0 +1,36 @@
+.income--section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 15rem;
+    text-align: center;
+    background-color: #FFF1DE;
+    margin-inline: -10rem;
+    padding-block: 2rem;
+    margin-block: 5rem;
+
+}
+
+.total-income .text, .current-balance .text, .last-month .text{
+    font-weight: 500;
+    font-size: 1.4rem;
+
+}
+
+.total-income .number, .current-balance .number, .last-month .number{
+    font-weight: 700;
+    font-size: 1.7rem;
+
+}
+
+.current-balance .text{
+    font-weight: 500;
+    font-size: 1.8rem;
+
+}
+
+.current-balance .number{
+    font-weight: 700;
+    font-size: 2.4rem;
+
+}

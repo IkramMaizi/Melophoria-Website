@@ -1,0 +1,23 @@
+.navbar2{
+    /* background-color: rgb(161, 67, 0); */
+padding-top: 2rem;
+    
+    
+  }
+  .menu2{
+   
+    display: flex;
+    list-style-type: none;
+    justify-content: start;
+    align-items: center;
+    padding: 0;
+   
+  }
+  .nav2--elem{
+    font-size: .9rem;
+    color: inherit;
+    background-color: #FFF1DE;
+    padding-inline: 1.5rem;
+    padding-block: .4rem;
+    font-size: .7rem;
+  }

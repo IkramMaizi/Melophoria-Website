@@ -1,6 +1,7 @@
 import React from 'react'
 import './RentPage.css'
 import Navigation from ".././components/navigation.jsx"
+import Footer from ".././components/Footer.jsx"
 import InstrumentsCard from ".././components/InstrumentsCard.jsx"
 import {Link, NavLink} from "react-router-dom"
 import InstImg from "../assets/inst-img.jpg"
@@ -56,7 +57,11 @@ export default function RentPage() {
 }])
 
   const InstrumentsCards= Instruments.map((inst) => (
-      <InstrumentsCard inst= {inst}/>
+      <InstrumentsCard 
+      name= {inst.name}
+      image= {inst.image}
+      price= {inst.price}
+      />
     )
   )
   return (
@@ -89,9 +94,7 @@ export default function RentPage() {
       {InstrumentsCards}
       </div>
       </div>
-      <footer>
-      <p>All Rights Reserved 2024</p>
-     </footer>
+      <Footer />
      </>
   )
 }

@@ -6,10 +6,10 @@ export default function InstrumentsCard(props) {
   return (
     <Link to="1">
     <div className="instrument-card">
-      <img src={props.inst.image} className="card--image" alt="" />
+      <img src={props.image} className="card--image" alt="" />
       <div className="card-details">
-      <h3>{props.inst.name}</h3>
-      <p>{props.inst.price}</p> 
+      <h3>{props.name}</h3>
+      <p>{props.price}</p> 
       </div>
       </div>
       </Link>

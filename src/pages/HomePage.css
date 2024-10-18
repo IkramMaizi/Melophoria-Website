@@ -52,16 +52,17 @@
     gap: 3rem;
     grid-template-columns: auto auto auto;
     padding: 3rem;
-    row-gap: 3rem;
+    row-gap: 1rem;
   }
 
-  footer{
-    background-color: grey;
-    text-align: center;
-    padding: .1rem;
-  }
+  .category--card{
+    background-color: aqua;
+    
+
+}
   
-  footer p{
-    color: rgb(255, 255, 255);
-  }
-  
+.category--card Img{
+ 
+height: 100%;
+}
+
