@@ -1,16 +1,21 @@
 .income--section{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    flex-direction: column;
     padding-inline: 15rem;
-    text-align: center;
     background-color: #FFF1DE;
     margin-inline: -10rem;
-    padding-block: 2rem;
+    
     margin-block: 5rem;
 
 }
+.income-details{
+    text-align: center;
+    padding-block: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 
+}
 .total-income .text, .current-balance .text, .last-month .text{
     font-weight: 500;
     font-size: 1.4rem;
@@ -33,4 +38,17 @@
     font-weight: 700;
     font-size: 2.4rem;
 
+}
+
+.wthdrw--section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 3rem;
+
+}
+
+.widthrw--btn{
+    align-self: center;
+    background-color: aqua;
 }

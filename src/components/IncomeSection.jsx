@@ -1,9 +1,11 @@
 import React from 'react'
 import "./IncomeSection.css"
+import Button from ".././components/Button.jsx"
 
 export default function IncomeSection(props) {
   return (
     <div className="income--section">
+      <div className="income-details">
         <div className="total-income">
             <p className="text">Total Income</p>
             <p className="number">1200$</p>
@@ -17,6 +19,9 @@ export default function IncomeSection(props) {
             <p className="text">Last 30 Days</p>
             <p className="number">100$</p>
         </div>
-    </div>
+        </div>
+        { props.type== "withdraw" && <div className="wthdrw--section">
+        <Button className="wdthrw--btn" text="Widthdraw Money" linkTO="/"/></div>}
+        </div>
   )
 }

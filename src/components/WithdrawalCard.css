@@ -1,0 +1,37 @@
+.withdrawal--card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #DBD8CF;
+    padding-inline: 3rem;
+    padding-block: .5rem;
+    border-radius: 15px;
+    margin-block: .5rem;
+}
+
+.account .visa{
+    font-weight: 800;
+}
+.account .number{
+    font-size: .7rem;
+}
+.account{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.amount{
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.date .day, .date .time{
+    font-size: .8rem;
+
+}
+
+.withdrawal--card .date{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

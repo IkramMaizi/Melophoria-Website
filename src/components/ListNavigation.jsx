@@ -6,10 +6,10 @@ export default function ListNavigation() {
   return (
     <div className= "navbar2">
         <ul className="menu2">
-            <NavLink to="/" className="nav2--elem">Home</NavLink>
-            <NavLink to="/rent" className="nav2--elem">Rent</NavLink>
-            <NavLink to="/list" className="nav2--elem">List</NavLink>
-            <NavLink to="/about" className="nav2--elem">About us</NavLink>
+            <NavLink to="." className="nav2--elem">Dashboard</NavLink>
+            <NavLink to="Income" className="nav2--elem">Income</NavLink>
+            <NavLink to="Instruments" className="nav2--elem">Instruments</NavLink>
+            <NavLink to="Reviews" className="nav2--elem">Reviews</NavLink>
 
         </ul>
 
