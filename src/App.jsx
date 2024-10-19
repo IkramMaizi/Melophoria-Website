@@ -9,6 +9,7 @@ import RentDetail from './pages/RentDetail.jsx'
 import ListIncome from "./pages/ListIncome.jsx"
 import ListInstruments from "./pages/ListInstruments.jsx"
 import ListReviews from "./pages/ListReviews.jsx"
+import AboutUsPage from "./pages/AboutUsPage.jsx"
 
 const router = createBrowserRouter(createRoutesFromElements(
   <>
@@ -21,6 +22,7 @@ const router = createBrowserRouter(createRoutesFromElements(
     <Route path="instruments" element={<ListInstruments />} />
     <Route path="reviews" element={<ListReviews />} />
   </Route>
+  <Route path="/about" element={<AboutUsPage />} />
   </>
 ))
 
