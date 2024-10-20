@@ -5,56 +5,10 @@ import Footer from ".././components/Footer.jsx"
 import InstrumentsCard from ".././components/InstrumentsCard.jsx"
 import {Link, NavLink} from "react-router-dom"
 import InstImg from "../assets/inst-img.jpg"
+import database from "../database.jsx"
 
 export default function RentPage() {
-  const [Instruments, SetInstruments] = React.useState([{
-    name: "Piano original P12",
-    price: "22$",
-    image: InstImg,
-    description: "Instuments details here bla bla blaaa hdh ghe bc jzjkddnn nc dhh another text bla blaa hfdh "
-  },
-  {
-    name: "Guitar GP45",
-    price: "25$",
-    image: InstImg,
-    description: "Instuments details here bla bla blaaa hdh ghe bc jzjkddnn nc dhh another text bla blaa hfdh "
-  },
-{
-  name: "Guitar GP45",
-    price: "25$",
-    image: InstImg,
-    description: "Instuments details here bla bla blaaa hdh ghe bc jzjkddnn nc dhh another text bla blaa hfdh "
-},
-{
-  name: "Guitar GP45",
-    price: "25$",
-    image: InstImg,
-    description: "Instuments details here bla bla blaaa hdh ghe bc jzjkddnn nc dhh another text bla blaa hfdh "
-},
-{
-  name: "Guitar GP45",
-    price: "25$",
-    image: InstImg,
-    description: "Instuments details here bla bla blaaa hdh ghe bc jzjkddnn nc dhh another text bla blaa hfdh "
-},
-{
-  name: "Guitar GP45",
-    price: "25$",
-    image: InstImg,
-    description: "Instuments details here bla bla blaaa hdh ghe bc jzjkddnn nc dhh another text bla blaa hfdh "
-},
-{
-  name: "Guitar GP45",
-    price: "25$",
-    image: InstImg,
-    description: "Instuments details here bla bla blaaa hdh ghe bc jzjkddnn nc dhh another text bla blaa hfdh "
-},
-{
-  name: "Guitar GP45",
-    price: "25$",
-    image: InstImg,
-    description: "Instuments details here bla bla blaaa hdh ghe bc jzjkddnn nc dhh another text bla blaa hfdh "
-}])
+  const [Instruments, SetInstruments] = React.useState(database)
 
   const InstrumentsCards= Instruments.map((inst) => (
       <InstrumentsCard 

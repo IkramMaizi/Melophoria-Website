@@ -5,6 +5,7 @@ import InstImg from "../assets/inst-img.jpg"
 import Button from ".././components/Button.jsx"
 import InstrumentsCard from ".././components/InstrumentsCard.jsx"
 
+
 export default function RentDetail() {
   return (
     <div className="rent-detail--page">
