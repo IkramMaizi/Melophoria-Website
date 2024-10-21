@@ -4,10 +4,12 @@ import Navigation from ".././components/navigation.jsx"
 import InstImg from "../assets/inst-img.jpg"
 import Button from ".././components/Button.jsx"
 import InstrumentsCard from ".././components/InstrumentsCard.jsx"
+import Footer from "../components/Footer.jsx"
 
 
 export default function RentDetail() {
   return (
+    <>
     <div className="rent-detail--page">
         <Navigation />
         <div className="detail--section">
@@ -47,5 +49,6 @@ export default function RentDetail() {
             </div>
         </div>
     </div>
+    <Footer /></>
   )
 }

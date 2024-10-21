@@ -1,5 +1,34 @@
 .about-us--page{
     padding-inline: 10rem;
     padding-top: 2rem;
-    height: 91vh;
+    height: 97vh;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.desc--section{
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+    align-self: center;
+    background-color: #FFF1DE;
+    border-radius: 2rem;
+    padding: 3rem;
+   
+     
+}
+
+.desc--section img{
+    width: 13rem;
+    
+}
+
+.desc--section .desc{
+    width: 60%;
+    font-size: 1rem;
+    font-weight: 600;
+    
 }
