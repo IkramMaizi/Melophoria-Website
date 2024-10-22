@@ -12,6 +12,7 @@ export default function RentPage() {
 
   const InstrumentsCards= Instruments.map((inst) => (
       <InstrumentsCard 
+      id= {inst.id}
       name= {inst.name}
       image= {inst.image}
       price= {inst.price}

@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 export default function InstrumentsCard(props) {
   return (
-    <Link to="1">
+    <Link to={`/rent/${props.id}`}>
     <div className="instrument-card">
       <img src={props.image} className="card--image" alt="" />
       <div className="card-details">
