@@ -1,6 +1,6 @@
 import React from 'react'
 import heroImage from "../assets/hero-image.png"
-import Button from ".././components/Button.jsx"
+import Button from ".././components/LinkButton.jsx"
 import Navigation from "../components/navigation.jsx"
 import Footer from "../components/Footer.jsx"
 import categoryImage1 from "../assets/hero-image1.png"

@@ -5,6 +5,7 @@ import WithdrawalCard from "../components/withdrawalCard"
 
 
 export default function ListIncome() {
+  
   return (
     <div className="list-income">
     <IncomeSection type="withdraw"/>
