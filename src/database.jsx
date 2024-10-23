@@ -14,7 +14,7 @@ export default function(){return([
     id: "2",
     name: "Fender American Professional II Stratocaster",
     price: "$20/hour",
-    type: "guitars",
+    type: "guitar",
     image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkjbnhYiOPTDtavfqL5EMpft_pKnnlF81jQXZZW9Szs4Cr0MQJU4o0PIxBeKlJFNL9b_I&usqp=CAU",
     description: "This electric guitar is known for its versatile sound and smooth playability. It features V-Mod II pickups and a deep 'C' neck profile for enhanced comfort."
   },
@@ -46,7 +46,7 @@ export default function(){return([
     id: "6",
     name: "Gibson Les Paul Standard '50s",
     price: "$35/hour",
-    type: "guitars",
+    type: "guitar",
     image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTh_LHjnVJ5PL74ZmfmsV6STQUhIsaNimUXkT71OshIH-lbepnE5cC5EWQYM8wTBffgL1k&usqp=CAU",
     description: "A tribute to Gibson's golden era, this electric guitar features a maple top and mahogany body, producing a powerful and warm tone with classic Les Paul aesthetics."
   },
@@ -54,7 +54,7 @@ export default function(){return([
     id: "7",
     name: "Yamaha Silent Violin SV-250",
     price: "$20/hour",
-    type: "violin",
+    type: "voilin",
     image: "https://thumbs.static-thomann.de/thumb/padthumb600x600/pics/bdb/_24/247285/14332998_800.jpg",
     description: "Yamaha's Silent Violin SV-250 is designed for performance and practice. It combines the natural feel of an acoustic violin with modern electronics for silent practice."
   },
@@ -62,7 +62,7 @@ export default function(){return([
     id: "8",
     name: "Martin D-28 Acoustic Guitar",
     price: "$30/hour",
-    type: "guitars",
+    type: "guitar",
     image: "https://www.elderly.com/cdn/shop/files/1_6e047e1b-70b6-4aae-9da5-65d0aabd2ee4.jpg?v=1722257669&width=1946",
     description: "The Martin D-28 is an iconic acoustic guitar known for its rich, resonant tone and excellent projection, making it a favorite for bluegrass and folk musicians."
   },
