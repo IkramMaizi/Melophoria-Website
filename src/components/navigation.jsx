@@ -2,6 +2,7 @@ import React from 'react'
 import './navigation.css'
 import logo from "../assets/logo.png"
 import {Link, NavLink} from "react-router-dom"
+import ScrollToTop from './ScrollToTop.jsx'
 
 export default function navigation() {
   return (
@@ -14,6 +15,7 @@ export default function navigation() {
             <NavLink to="/about" className="nav--elem">About us</NavLink>
 
         </ul>
+        <ScrollToTop />
     </nav>
   )
 }

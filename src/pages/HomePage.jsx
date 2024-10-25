@@ -13,6 +13,9 @@ import {Link, NavLink} from "react-router-dom"
 import './HomePage.css'
 
 export default function HomePage() {
+  React.useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   return (
     <div className="app">
     <section className="section--1">

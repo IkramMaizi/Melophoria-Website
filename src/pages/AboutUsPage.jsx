@@ -5,6 +5,9 @@ import Footer from "../components/Footer"
 import logo from "../assets/logo2.png"
 
 export default function AboutUsPage() {
+  React.useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   return (
     <>
     <div className= "about-us--page">
