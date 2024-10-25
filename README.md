@@ -7,4 +7,6 @@ The Melophoria website is a platform for connecting individuals who want to rent
 * Styling: CSS3
 * Version Control: Git and GitHub
 
+**Netlify Demo: ** https://melophoria.netlify.app/
+
 **Note:** This is a fictional project and is not connected to any backend or real-world services.
