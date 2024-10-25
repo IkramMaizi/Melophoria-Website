@@ -1,7 +1,7 @@
 import React from 'react'
 import "./ListIncome.css"
 import IncomeSection from '../components/IncomeSection'
-import WithdrawalCard from "../components/withdrawalCard"
+import WithdrawalCard from "../components/WithdrawalCard"
 
 
 export default function ListIncome() {
