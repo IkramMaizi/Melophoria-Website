@@ -37,22 +37,22 @@ export default function HomePage() {
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         </p>
         <div className="grid-container">
-          <Link to="/rent" className="category--card">
+          <Link to="/rent?type=guitar" className="category--card">
             <img src={categoryImage1} alt="" className="card--image" />
             </Link>  
-          <Link to="/rent" className="category--card">
+          <Link to="/rent?type=piano" className="category--card">
             <img src={categoryImage2} alt="" className="card--image" />
             </Link>  
-          <Link to="/rent" className="category--card">
+          <Link to="/rent?type=voilin" className="category--card">
             <img src={categoryImage3} alt="" className="card--image" />
             </Link>  
-          <Link to="/rent" className="category--card">
+          <Link to="/rent?type=sexaphone" className="category--card">
             <img src={categoryImage4} alt="" className="card--image" />
             </Link>  
-          <Link to="/rent" className="category--card">
+          <Link to="/rent?type=drum" className="category--card">
             <img src={categoryImage5} alt="" className="card--image" />
             </Link>  
-          <Link to="/rent" className="category--card">
+          <Link to="/rent?type=flute" className="category--card">
             <img src={categoryImage6} alt="" className="card--image" />
             </Link>  
           
